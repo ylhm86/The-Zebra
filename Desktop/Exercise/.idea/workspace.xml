@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fffeb055-f1f2-465e-9335-0d626e1376b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Exercises" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mfV8RMMPLDk1PEHUwdAACbxP59" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.ExerciseTest.giveEmpty">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise" />
+      <module name="Exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseTest.giveEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
+      <option name="METHOD_NAME" value="giveEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseTest.giveMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
+      <option name="METHOD_NAME" value="giveMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseTest.giveSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
+      <option name="METHOD_NAME" value="giveSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseTest.giveSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
+      <option name="METHOD_NAME" value="giveSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExerciseTest.giveEmpty" />
+        <item itemvalue="JUnit.ExerciseTest.giveSingle" />
+        <item itemvalue="JUnit.ExerciseTest.giveMax" />
+        <item itemvalue="Application.Exercise" />
+        <item itemvalue="JUnit.ExerciseTest.giveSame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fffeb055-f1f2-465e-9335-0d626e1376b6" name="Default Changelist" comment="" />
+      <created>1609884472086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609884472086</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom" timestamp="1609904993924">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993924" />
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174417" />
+    <state width="1358" height="208" key="GridCell.Tab.0.center" timestamp="1609904993923">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993923" />
+    <state width="1358" height="208" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174416" />
+    <state width="1358" height="208" key="GridCell.Tab.0.left" timestamp="1609904993922">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993922" />
+    <state width="1358" height="208" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174415" />
+    <state width="1358" height="208" key="GridCell.Tab.0.right" timestamp="1609904993923">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993923" />
+    <state width="1358" height="208" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174416" />
+    <state x="258" y="90" key="Maven.ArtifactSearchDialog" timestamp="1609887571365">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="258" y="90" key="Maven.ArtifactSearchDialog/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609887571365" />
+    <state x="208" y="23" width="1024" height="827" key="SettingsEditor" timestamp="1609887004065">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="208" y="23" width="1024" height="827" key="SettingsEditor/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609887004065" />
+    <state x="149" y="132" key="new project wizard" timestamp="1609884510928">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="149" y="132" key="new project wizard/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609884510928" />
+  </component>
+</project>
