@@ -37,49 +37,57 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.ExerciseTest.giveEmpty">
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise" />
-      <module name="Exercise" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExerciseTest.giveEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ExerciseTest.giveMultipleMaxLengthWordsTest">
+    <configuration name="ExerciseTest.giveEmptySpaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
-      <option name="METHOD_NAME" value="giveEmpty" />
+      <option name="METHOD_NAME" value="giveEmptySpaceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTest.giveMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExerciseTest.giveEmptyStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
-      <option name="METHOD_NAME" value="giveMax" />
+      <option name="METHOD_NAME" value="giveEmptyStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTest.giveSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExerciseTest.giveMultipleMaxLengthWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
-      <option name="METHOD_NAME" value="giveSame" />
+      <option name="METHOD_NAME" value="giveMultipleMaxLengthWordsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTest.giveSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExerciseTest.giveNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
-      <option name="METHOD_NAME" value="giveSingle" />
+      <option name="METHOD_NAME" value="giveNullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseTest.giveSingleWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTest" />
+      <option name="METHOD_NAME" value="giveSingleWordTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExerciseTest.giveEmpty" />
-        <item itemvalue="JUnit.ExerciseTest.giveSingle" />
-        <item itemvalue="JUnit.ExerciseTest.giveMax" />
-        <item itemvalue="Application.Exercise" />
-        <item itemvalue="JUnit.ExerciseTest.giveSame" />
+        <item itemvalue="JUnit.ExerciseTest.giveMultipleMaxLengthWordsTest" />
+        <item itemvalue="JUnit.ExerciseTest.giveSingleWordTest" />
+        <item itemvalue="JUnit.ExerciseTest.giveEmptyStringTest" />
+        <item itemvalue="JUnit.ExerciseTest.giveEmptySpaceTest" />
+        <item itemvalue="JUnit.ExerciseTest.giveNullTest" />
       </list>
     </recent_temporary>
   </component>
@@ -109,26 +117,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="208" key="GridCell.Tab.0.bottom" timestamp="1609904993924">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="120" y="123" width="1200" height="613" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1610250974920">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
+    <state x="120" y="123" width="1200" height="610" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1610139228476" />
+    <state x="120" y="123" width="1200" height="613" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1610250974920" />
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom" timestamp="1610253288973">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1610139243750" />
     <state width="1358" height="208" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993924" />
-    <state width="1358" height="208" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174417" />
-    <state width="1358" height="208" key="GridCell.Tab.0.center" timestamp="1609904993923">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="208" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1610253288973" />
+    <state width="1358" height="208" key="GridCell.Tab.0.center" timestamp="1610253288971">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1610139243748" />
     <state width="1358" height="208" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993923" />
-    <state width="1358" height="208" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174416" />
-    <state width="1358" height="208" key="GridCell.Tab.0.left" timestamp="1609904993922">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="208" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1610253288971" />
+    <state width="1358" height="208" key="GridCell.Tab.0.left" timestamp="1610253288969">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1610139243747" />
     <state width="1358" height="208" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993922" />
-    <state width="1358" height="208" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174415" />
-    <state width="1358" height="208" key="GridCell.Tab.0.right" timestamp="1609904993923">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="208" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1610253288969" />
+    <state width="1358" height="208" key="GridCell.Tab.0.right" timestamp="1610253288972">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
+    <state width="1358" height="208" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1610139243749" />
     <state width="1358" height="208" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609904993923" />
-    <state width="1358" height="208" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609890174416" />
+    <state width="1358" height="208" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1610253288972" />
     <state x="258" y="90" key="Maven.ArtifactSearchDialog" timestamp="1609887571365">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
@@ -137,6 +154,14 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="208" y="23" width="1024" height="827" key="SettingsEditor/-1920.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1609887004065" />
+    <state x="413" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1610138985602">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="413" y="260" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1610138985602" />
+    <state x="525" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609908949360">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="525" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1609908949360" />
     <state x="149" y="132" key="new project wizard" timestamp="1609884510928">
       <screen x="0" y="23" width="1440" height="827" />
     </state>

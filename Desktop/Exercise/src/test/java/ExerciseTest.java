@@ -1,67 +1,86 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
 class ExerciseTest {
 
-    // Test the length and longest words in a sentence. For example, “The cow jumped over the moon.”
-    // Test the length and longest words in a sentence with positive scenario.
     @Test
-    void giveMax() {
+    @Tag("RunPositive")
+    void giveSingleMaxLengthWordTest() {
         String s = "the cow jumped over the moon";
-        List<String> actualList = Arrays.asList("jumped");
-        List<String> words = new ArrayList<String>();
-        for (Map.Entry<String,Integer> entry:Exercise.giveMax(s).entrySet()){
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
-            words.add(entry.getKey());
-            Assertions.assertTrue(actualList.contains(entry.getKey()));
-        }
-        Assertions.assertEquals(actualList.size(),words.size());
+        List<String> expectedWords = Collections.singletonList("jumped");
+        assertWords(s, expectedWords);
     }
-    // Test the length and longest words in a sentence with the same length and different words.
+
     @Test
-    void giveSame() {
+    @Tag("RunPositive")
+    void giveMultipleMaxLengthWordsTest() {
         String s = "the cow jump over the moon";
-        List<String> actualList = Arrays.asList("jump","moon");
-        List<String> words = new ArrayList<String>();
-        for (Map.Entry<String,Integer> entry:Exercise.giveMax(s).entrySet()){
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
-            words.add(entry.getKey());
-            Assertions.assertTrue(actualList.contains(entry.getKey()));
-        }
-        Assertions.assertEquals(actualList.size(),words.size());
+        List<String> expectedWords = Arrays.asList("jump", "over", "moon");
+        assertWords(s, expectedWords);
     }
-    // Test the length and longest words in a sentence with the a word.
+
     @Test
-    void giveSingle() {
+    @Tag("RunPositive")
+    void giveSingleWordTest() {
         String s = "jumped";
-        List<String> actualList = Arrays.asList("jumped");
-        List<String> words = new ArrayList<String>();
-        for (Map.Entry<String,Integer> entry:Exercise.giveMax(s).entrySet()){
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
-            words.add(entry.getKey());
-            Assertions.assertTrue(actualList.contains(entry.getKey()));
-        }
-        Assertions.assertEquals(actualList.size(),words.size());
+        List<String> expectedWords = Collections.singletonList("jumped");
+        assertWords(s, expectedWords);
     }
-    //Test the length and longest words in a sentence with the a empty string.
+
     @Test
-    void giveEmpty() {
+    @Tag("RunPositive")
+    void giveWordsWithNumbersTest() {
+        String s = "jumped123";
+        List<String> expectedWords = Collections.singletonList("jumped123");
+        assertWords(s, expectedWords);
+    }
+    @Test
+    @Tag("RunPositive")
+    void giveWordsWithSpacesCharactersTest() {
+        String s = "jumped@&%";
+        List<String> expectedWords = Collections.singletonList("jumped@&%");
+        assertWords(s, expectedWords);
+    }
+
+    @Test
+    @Tag("RunNegative")
+    void giveEmptyStringTest() {
         String s = "";
-        List<String> actualList = Arrays.asList("");
-        List<String> words = new ArrayList<String>();
-        for (Map.Entry<String,Integer> entry:Exercise.giveMax(s).entrySet()){
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
-            words.add(entry.getKey());
-            Assertions.assertTrue(actualList.contains(entry.getKey()));
+        List<String> expectedWords = Arrays.asList("");
+        assertWords(s, expectedWords);
+    }
+
+    @Test
+    @Tag("RunNegative")
+    void giveEmptySpaceTest() {
+        String s = " ";
+        List<String> expectedWords = Arrays.asList(" ");
+        assertWords(s, expectedWords);
+    }
+
+    @Test
+    @Tag("RunNegative")
+    void giveNullTest() {
+        String s = null;
+        List<String> expectedWords = null;
+        assertWords(s, expectedWords);
+    }
+
+    private void assertWords(String s, List<String> expectedList) {
+        List<String> actualList = new ArrayList<>();
+        Map<String, Integer> actualMap = Exercise.giveMax(s);
+        if (actualMap.size() != 0) {
+            for (Map.Entry<String, Integer> entry : Exercise.giveMax(s).entrySet()) {
+                System.out.println(entry.getKey());
+                System.out.println(entry.getValue());
+                actualList.add(entry.getKey());
+                Assertions.assertTrue(expectedList.contains(entry.getKey()));
+            }
+            Assertions.assertEquals(expectedList.size(), actualList.size());
         }
-        Assertions.assertEquals(actualList.size(),words.size());
     }
 }
