@@ -1,0 +1,974 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-15T08:47:02.809Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4830144000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.thezebra.step_definitions.Hook.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify elements on the home page",
+        "description": "",
+        "id": "all-home-page-headers;verify-elements-on-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 236346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.thezebra.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1528574000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to home page",
+            "match": {
+              "location": "com.thezebra.step_definitions.HomeStepDefinitions.user_navigates_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95081000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the \"Compare top providers \u0026 find your perfect policy.\" title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Compare top providers \u0026 find your perfect policy.\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.HomeStepDefinitions.verify_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112755000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the \"Compare\" insurances",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Compare\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.HomeStepDefinitions.verify_the_insurances(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72324000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the \"Tools \u0026 Tips\" tools",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tools \u0026 Tips\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.HomeStepDefinitions.verify_the_tools(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57136000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the \"Company\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Company\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.HomeStepDefinitions.verify_the_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homePage"
+          }
+        ]
+      }
+    ],
+    "name": "All Home page headers",
+    "description": "  As user I want to be able to see all headers as a table",
+    "id": "all-home-page-headers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homePage.feature",
+    "tags": [
+      {
+        "name": "@homePage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-15T08:47:10.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2522804000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.thezebra.step_definitions.Hook.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user can get a quote for a car",
+        "description": "",
+        "id": "get-quote-for-a-user;verify-user-can-get-a-quote-for-a-car",
+        "after": [
+          {
+            "result": {
+              "duration": 382532000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.thezebra.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4986396000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to home page",
+            "match": {
+              "location": "com.thezebra.step_definitions.HomeStepDefinitions.user_navigates_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1031316000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User set the page \"HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomePage\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_set_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6095000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see the \"The Zebra\" title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Zebra\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2110712000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks \"labelCarInsurance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"labelCarInsurance\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_clicks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2850561000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user types \"78665\" to \"zipCode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"78665\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"zipCode\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096629000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks \"getMyQuotes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getMyQuotes\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_clicks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5689000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set the page \"StartPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"StartPage\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_set_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3762324000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yes\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2158157000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects \"I own my home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I own my home\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2097706000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects \"I think I’m paying too much\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I think I’m paying too much\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126517000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user cliks \"saveAndContinue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saveAndContinue\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_cliks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2481487000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user types \"13030 Northborough Dr\" to \"garagingAddress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13030 Northborough Dr\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"garagingAddress\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2277928000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user types \"Houston\" to \"city\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houston\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"city\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2194148000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user types \"Andy\" to \"firstname\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Andy\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"firstname\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2207697000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user types \"Candy\" to \"lastname\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Candy\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"lastname\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2252621000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user types \"06231999\" to \"DOB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"06231999\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"DOB\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2267101000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user cliks \"saveAndContinue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saveAndContinue\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_cliks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5229000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User set the page \"VehiclesPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VehiclesPage\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_set_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2270063000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user writes \"2015\" to \"vehicleYear\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2015\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"vehicleYear\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_writes(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2199181000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user writes \"Hyundai\" to \"vehicleMake\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyundai\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"vehicleMake\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_writes(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2170322000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user writes \"Genesis\" to \"vehicleModel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Genesis\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"vehicleModel\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_writes(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2181282000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user writes \"5.0L 4dr Sedan\" to \"vehicleSubModel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5.0L 4dr Sedan\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"vehicleSubModel\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_writes(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2731673000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user cliks \"saveAndContinue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saveAndContinue\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_cliks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2145975000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user selects \"Own—paid in full\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Own—paid in full\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2139853000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user selects \"Personal/commuting\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Personal/commuting\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2199706000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user types \"200\" to \"estimatedMlage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"estimatedMlage\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2281307000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user cliks \"saveAndContinue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saveAndContinue\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_cliks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10956000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User set the page \"DriversPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DriversPage\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_set_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2140986000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user selects \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2119751000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user selects \"Single\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Single\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2223883000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user selects \"Excellent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excellent\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2220782000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Doctoral degree\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doctoral degree\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2136696000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user selects \"More than 3 years\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"More than 3 years\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2481025000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user writes \"GEICO\" to \"currentInsurance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GEICO\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"currentInsurance\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_writes(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121105000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user selects \"$50k / $100k\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$50k / $100k\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_selects(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2109364000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user clicks \"clickNo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clickNo\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_clicks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2541172000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user types \"ylham.sdet@gmail.com\" to \"email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ylham.sdet@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"email\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_types(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2176969000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user clicks \"clickNoToSave\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clickNoToSave\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_clicks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2280267000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user cliks \"showMyQuotes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"showMyQuotes\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_cliks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25481112000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user waits until page loads",
+            "match": {
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_waits_until_page_loads()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16031000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user can see the result",
+            "match": {
+              "location": "com.thezebra.step_definitions.UserFlowStepDefinitions.user_can_see_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getQuote"
+          }
+        ]
+      }
+    ],
+    "name": "Get quote for a user",
+    "description": "",
+    "id": "get-quote-for-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/userFlow.feature",
+    "tags": [
+      {
+        "name": "@getQuote",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
