@@ -1,0 +1,10 @@
+The Zebra User Flow 
+
+Requirements to run the project
+
+1. JDK 11 or higher
+2. Maven 4
+
+To run the tests
+1. Execute mvn clean test in terminal
+2. Go CukesRunner class rigt click and run the tests
